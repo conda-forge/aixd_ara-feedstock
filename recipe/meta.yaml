@@ -1,5 +1,5 @@
 {% set name = "aixd_ara" %}
-{% set version = "0.9.3" %}
+{% set version = "0.10.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aixd_ara-{{ version }}.tar.gz
-  sha256: 405f0f2fbadb0504d56953bd83da83d6d1d87e4a140f289c000b1c3a05061f19
+  sha256: 8e61efa1d2ae5ed614939656d51837b7cb38625acc405856595547dc2ee35015
 
 build:
   number: 0
@@ -19,8 +19,9 @@ requirements:
   host:
     - pip
     - python >=3.9
+    - setuptools
   run:
-    - aixd >=0.10.0
+    - aixd =0.12.0
     - compas >=2,<3
     - flask
     - python >=3.9
