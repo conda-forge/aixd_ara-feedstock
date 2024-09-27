@@ -1,5 +1,5 @@
 {% set name = "aixd_ara" %}
-{% set version = "0.10.0" %}
+{% set version = "0.10.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/aixd_ara-{{ version }}.tar.gz
-  sha256: 8e61efa1d2ae5ed614939656d51837b7cb38625acc405856595547dc2ee35015
+  sha256: b20e2521c53fb1903fcc7743d10bd6ac387ddc389570c7957ae50a81b66a3aad
 
 build:
   number: 0
