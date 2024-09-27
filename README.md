@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@funkchaser](https://github.com/funkchaser/)
 * [@gonzalocasas](https://github.com/gonzalocasas/)
 
-
-<!-- dummy commit to enable rerendering -->
-
