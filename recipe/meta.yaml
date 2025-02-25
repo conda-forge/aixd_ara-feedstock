@@ -21,7 +21,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
   run:
-    - aixd =0.12.1
+    - aixd =0.13.0
     - compas >=2,<3
     - flask
     - python >={{ python_min }}
